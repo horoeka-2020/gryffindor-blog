@@ -1,8 +1,10 @@
 <div class="container">
   <div class="blog">
+    {{#each blogs}}
     <h2>{{blogTitle}}</h2>
     <img src={{image}}>
     <p>{{body}}</p>
     <h3>{{author}}</h3>
+    {{/each}}
   </div>
 </div>

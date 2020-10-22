@@ -15,12 +15,13 @@ router.get('/', (req, res) => {
     if (err) return res.sendStatus(500)
     // parse the string contents into a JS object
     const data = JSON.parse(contents)
-    
+    console.log(data)
     // construct our view data
-    const viewData = {
-      puppies: data.puppies
-    }
-    res.render('home', viewData)
+    // const viewData = {
+    //   puppies: data.puppies
+    // }
+    res.render('home', data)
   })
 })
+
 
