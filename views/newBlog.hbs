@@ -1,0 +1,21 @@
+<form class="form" action="/newBlog/{{id}}" method="post">
+  <img class="img-circle" src="{{image}}" alt="{{name}}">
+  <label for="name" class="form-item">
+    Name:
+    <input type="text" name="name" value="{{name}}">
+  </label>
+  
+  <label for="author" class="form-item">
+    Author:
+    <input type="text" name="author" value="{{author}}">
+  </label>
+  
+  <label for="body" class="form-item">
+    Body:
+    <input type="text" name="body" value="{{body}}">
+  </label>
+  
+  <input type="hidden" name="image" value="{{image}}">
+  
+  <input type="submit" name="" value="Submit">
+</form>
