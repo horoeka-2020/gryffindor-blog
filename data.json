@@ -1,0 +1,10 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "name": "Gryffindor",
+      "author": "Gio",
+      "body": "My first day at Hogwarts..."
+    }
+  ]
+}
