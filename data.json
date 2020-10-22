@@ -2,7 +2,7 @@
   "blogs": [
     {
       "id": 1,
-      "name": "Gryffindor",
+      "blogTitle": "Gryffindor",
       "author": "Gio",
       "image": "",
       "body": "My first day at Hogwarts..."
