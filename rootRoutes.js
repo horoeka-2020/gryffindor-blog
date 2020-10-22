@@ -15,6 +15,7 @@ router.get('/', (req, res) => {
     if (err) return res.sendStatus(500)
     // parse the string contents into a JS object
     const data = JSON.parse(contents)
+    
     // construct our view data
     const viewData = {
       puppies: data.puppies
@@ -22,3 +23,4 @@ router.get('/', (req, res) => {
     res.render('home', viewData)
   })
 })
+
