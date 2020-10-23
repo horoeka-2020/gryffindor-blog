@@ -5,13 +5,17 @@
 
 .wrapper {
   margin: 0 auto;
-  background-color: #ae0001;
+  background-color: #740001;
+}
+
+body {
+margin-top: 100px;
 }
 
 header {
   height: 100px;
   top: 0px;
-  background-color: #ae0001;
+  background-color: #740001;
   width: 100%;
   z-index: 12;
   position: fixed;
@@ -27,7 +31,7 @@ header {
   font-size: 30px;
   font-family: "magic_school_oneregular";
   font-weight: 400;
-  color: white;
+  color: #eeba30;
 }
 
 nav {
@@ -39,7 +43,7 @@ nav {
 nav a {
   font-family: "Grenze Gotisch", "Kumbh Sans";
   font-size: 22px;
-  color: white;
+  color: #eeba30;
 }
 
 @font-face {
