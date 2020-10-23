@@ -4,7 +4,7 @@ const rootRoutes = require('./rootRoutes')
 
 const server = express()
 
-// server.use(express.static('public'))
+server.use(express.static('Public'))
 server.use(express.urlencoded({ extended: false }))
 server.use('/', rootRoutes)
 
