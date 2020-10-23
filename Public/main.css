@@ -1,47 +1,41 @@
-<style>
-
 *{
   margin: 0;
   padding: 0;
 }
-a {
-  text-decoration: none;
-  color: #0D0D0D;
-}
-a:hover {
-  color: #8C7968;
-}
-body{
-  text-align: left;
-  margin: 0 0 0 0;
-}
+
 .wrapper {
   margin: 0 auto;
+  background-color: #ae0001;
 }
+
 header {
   height: 100px;
   top: 0px;
-  background-color: #733E39;
+  background-color: #ae0001;
   width: 100%;
   z-index: 12;
   position: fixed;
 }
+
 .logo {
   margin-left: 6%;
   float: left;
   line-height: 100px;
 }
+
 .logo a {
   font-size: 30px;
-  font-family: "Grenze Gotisch", "Kumbh Sans";
+  font-family: "magic_school_oneregular";
   font-weight: 400;
   color: white;
 }
+
 nav {
   float: right;
   line-height: 100px;
   padding-right: 10%;
 }
+
 nav a {
   font-family: "Grenze Gotisch", "Kumbh Sans";
   font-size: 22px;
@@ -49,11 +43,20 @@ nav a {
 }
 
 @font-face {
+  font-family: 'magic_school_oneregular';
+  src: url('magicschoolone-webfont.woff2') format('woff2'),
+       url('magicschoolone-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+.img {
+  width: 100px
+}
+/* @font-face {
   font-family: "Magic-school";
   src: url("CustomFont.eot");
   src: url("CustomFont.woff") format("woff"),
   url("CustomFont.otf") format("opentype"),
   url("CustomFont.svg#filename") format("svg");
-  }
-
-</style>
+  } */
